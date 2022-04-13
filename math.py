@@ -1,4 +1,13 @@
+"""
+python 3.9 script containing several math algorithms
+"""
+
+
 def euclideanAlgorithm(a: int, b: int, returnQ=False):
+    """
+    returns GCD of integer a and b
+    """
+
     r = 1
     q = 1
     sr = 0
